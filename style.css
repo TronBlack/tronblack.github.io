@@ -221,7 +221,6 @@ td,
 th {
   padding: 0
 }
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
   *, *:before, *:after {
@@ -6069,11 +6068,11 @@ tbody.collapse.in {
 }
 
 .blog-jumbotron {
-  background: #428bca url("http://timothy.expert/images/notebook-1280x220.jpg") center/cover
+  background: #428bca url("/images/notebook-1280x220.jpg") center/cover
 }
 
 .projects-jumbotron {
-  background: #428bca url("http://timothy.expert/images/computer-1280x220.jpg") center/cover
+  background: #428bca url("/images/computer-1280x220.jpg") center/cover
 }
 
 .jumbotron {
@@ -6679,7 +6678,7 @@ body {
 
 .cover-wrapper {
   overflow: hidden;
-  background: #428bca url("http://timothy.expert/images/coding-1280x800.jpg") center/cover;
+  background: #428bca url("/images/coding-1280x800.jpg") center/cover;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
