@@ -129,18 +129,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div id="retainable-rss-embed" 
-                 data-rss="https://medium.com/feed/@tronblack"
-                  data-maxcols="3" 
-                  data-layout="grid" 
-                  data-poststyle="inline" 
-                  data-readmore="Read the rest" 
-                  data-buttonclass="btn btn-primary" 
-                  data-offset="-100">      
-            </div>
-            <div>
-              <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
-            </div>
+            <div id="medium-widget"></div>
+               <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+                <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@tronblack","postsPerLine":1,"limit":10,"picture":"big","fields":["description","author","claps","likes","publishAt"],"ratio":"landscape"}})</script>
+
           </div>
         <div class="row">
           <div class="col-md-12">
